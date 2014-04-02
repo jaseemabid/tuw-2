@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% include head.ext%}
+	<!-- add title -->
+</head>
+<body>
+	{% include overlay.ext %}
+	
+	{% include header.ext %}
+	{% include navigator.ext %} 
+	
+	<div id=image_slider>
+			<img src="../pic/team.jpg"  id="image1">
+			<img src="../pic/1040.jpg" id="image2" >
+			<img src="../pic/234.jpg" id="image3" >
+			<img src="../pic/508.jpg" id="image4" >
+			<img src="../pic/Lighthouse.jpg" id="image5" >
+			<img src="../pic/astronomy.jpg" id="image6" >
+	</div>
+	
+	<div id="selector">
+			<a href="baja.html" id="selector1">BAJA SAE</a><br/>
+			<a href="aero.html" id="selector2">SAE AERO</a><br/>
+			<a href="photography.html" id="selector3">PHOTOGRAPHY</a><br/>
+			<a href="coding.html" id="selector5">CODING</a><br/>
+			<a href="astronomy.html" id="selector6">ASTRONOMY</a><br/>
+			<a href="others.html" id="selector4">OTHERS</a><br/>
+	</div>
+	
+	
+	{{ content }}
+	
+	
+			
+		<br/><br/>
+		{% include sponsors.ext %}
+		{% include sponsorship.ext %}
+		{% include contact_us.ext %}
+	</div>
+
+	
+	
+</body>
+</html>

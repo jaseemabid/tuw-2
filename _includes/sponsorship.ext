@@ -1,0 +1,40 @@
+<div id="sponsorship">
+	<p id="heading">SPONSOR US<p>
+	<div id="sponsor_us"> <!-- Main col -->
+		<p>
+			Formula Student is a renowned global challenge taken up by
+			auto enthusiasts from over 140 different universities, with
+			the numbers only growing as each racing season progresses.
+			TeamUnwired will be the only team and the very first team
+			from Kerala and among the few from India to compete. A
+			competition that is so vital for an upcoming engineer,
+			giving focus to every aspect to further ones's career. It is
+			important that the awareness of the competition is spread
+			across the nation, encouraging a wider band of team numbers
+			to enter Formula Student. By partnering with TeamUnwired a
+			positive educational cause is fulfilled, allowing better
+			prepared engineers having expertise in an array of areas
+			ready for any changing work environment.
+		</p>
+
+		<p>
+			With over 140 teams from different universities
+			participating in the world's largest student motorsport
+			event annually, the media coverage is remarkable. Partnering
+			with TeamUnwired ensures that the team will proudly
+			represent its partners by displaying logos on the car and
+			various other forms throughout the racing season.
+		</p>
+
+		<p>
+			Sponsorship is accepted as monetary, part, and technical assistance. If you are
+			interested in sponsoring TeamUnwired please download our marketing brochure for
+			more details or feel free to <a href="#contact_us">contact us</a> at any time.
+		</p>
+
+		<a class="alertvideo" href="#" ><strong>WATCH OUR VIDEO>>>>>>>>>>>></strong></a><br/>
+		<a class="brochure" href="reader.html"><strong>READ OUR BROCHURE>>>>>>>>></strong></a>
+		
+		<br/><br/>
+	</div>
+</div>

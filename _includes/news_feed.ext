@@ -1,0 +1,22 @@
+<div id="news_feed">
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
+	<div class="fb-like-box" data-href="http://www.facebook.com/teamunwired" 
+		data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" 
+		data-show-border="false" data-width="520" data-height="1025">
+	</div>
+	<img src="pic/news.jpg" id="news_img">
+	<a class="twitter-timeline" href="https://twitter.com/teamunwired" data-widget-id="436508970371411970"
+		 height="1025"></a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+		if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+		fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+

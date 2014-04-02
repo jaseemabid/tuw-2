@@ -1,0 +1,23 @@
+<div id=navigator>
+	<ul>
+		<li><a href="home.html">HOME</a></li>
+		<li><a href="" onclick="return false;" id="about">ABOUT US</a></li>
+		<li><a href="#sponsors">SPONSORS</a></li>
+		<li><a href="#sponsorship">SPONSORSHIP</a></li>
+		<li><a href="#contact_us">CONTACT US</a></li>
+		<li><a href="http://www.twitter.com/teamunwired">
+				<img src="pic/twitter.png"><br>
+			</a></li>
+		<li><a href="https://plus.google.com/118161360181843997659">
+				<img src="pic/google_plus.png"><br>
+			</a></li>
+		<li><a href="http://www.facebook.com/teamunwired">
+				<img src="pic/facebook.png"><br>
+			</a></li>
+		<li><p id="about_us"> from God's own country, Team Unwired is an ensemble of
+		undergraduate engineering students at the National Institute of
+		Technology Calicut (NITC). Team Unwired strives towards achieving
+		its primary goal which is to use the knowledge and concepts gained
+		in classes and employ them in engineering projects.</p></li>
+	</ul>
+</div>

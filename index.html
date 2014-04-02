@@ -1,0 +1,45 @@
+---
+layout: common
+---
+
+	<div id=image_slider>
+			<img src="pic/team.jpg"  id="image1">
+			<img src="pic/1040.jpg" id="image2" >
+			<img src="pic/234.jpg" id="image3" >
+			<img src="pic/508.jpg" id="image4" >
+			<img src="pic/Lighthouse.jpg" id="image5" >
+			<img src="pic/astronomy.jpg" id="image6" >
+	</div>
+	
+	<div id="selector">
+			<a href="baja.html" id="selector1">BAJA SAE</a><br/>
+			<a href="aero.html" id="selector2">SAE AERO</a><br/>
+			<a href="photography.html" id="selector3">PHOTOGRAPHY</a><br/>
+			<a href="coding.html" id="selector5">CODING</a><br/>
+			<a href="astronomy.html" id="selector6">ASTRONOMY</a><br/>
+			<a href="others.html" id="selector4">OTHERS</a><br/>
+	</div>
+	
+	
+	<div id=new_div>
+		<div id="news_feed">
+				<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+			
+				<div class="fb-like-box" data-href="http://www.facebook.com/teamunwired" 
+					data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" 
+					data-show-border="false" data-width="520" data-height="350">
+				</div>
+				<img src="../pic/news.jpg" id="news_img" width="300">
+				<a class="twitter-timeline" href="https://twitter.com/teamunwired" data-widget-id="436508970371411970"
+					 height="350"></a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+					if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>

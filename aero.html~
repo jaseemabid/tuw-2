@@ -1,0 +1,67 @@
+---
+layout: common
+---
+<div id=main_image>
+	<img src="pic/team.jpg">
+	<div id="category_heading"> 
+				<h2>SAE AERO DESIGN EAST</h2>
+			<div id="category_details">
+				<p>The SAE Aero Design East is an international competition intended to provide
+				undergraduate and graduate engineering students with a real-life engineering
+				challenge. The competition has been designed to provide exposure to the kinds of
+				situations that engineers face in their real-life work environment. The students
+				have to come up with a Remote controlled aircraft design solution that will
+				optimally meet the mission requirements while still conforming to the
+				configuration limitations and fabricate the same.</p>
+
+				<p>The competition aims to inspire and develop enterprising and innovative young
+				engineers from around the world. It gives students an opportunity to learn new
+				skills and showcase their talent. In addition to technical skills the team
+				acquires management, marketing and people skills, valid across all sectors of
+				employment.</p>
+			</div>
+	</div>
+</div>
+<div id=new_div>
+
+
+	<div id="category_title1" class="category_title"> 
+		<h3>Design Objective</h3>
+		<div id="category1" class="category">
+			
+				
+				
+			<p>The objective of Regular Class is to design an aircraft that can lift as much
+			weight as possible while observing the available power and aircraft’s length,
+			width, and height requirements. Accurately predicting the lifting capacity of
+			the aircraft is an important part of the exercise, as prediction bonus points
+			often determine the difference in placement between competing teams.</p>
+
+			<p>The Regular Class will be divided into 3 phases as follows:</p><br/>
+
+			<h4>Phase 1: Technical report</h4><br/>
+
+			<p>Teams will electronically submit their proposals for competition detailing
+			how their design has met or exceeded the design requirements.</p>
+
+
+			<h4>Phase 2: Technical Presentation and Inspection </h4><br/>
+
+
+			<h5>Phase 2A</h5>
+			<p> Payload Loading Demonstration (timed event during Oral Presentation).</p>
+
+
+			<h5>Phase 2B</h5>
+			<p> Payload Unloading Demonstration (timed event during Oral Presentation) </p>
+
+
+			<h5>Phase C – Oral Presentation</h5>
+
+			<br/><br/>
+			<h4>Phase 3: Flight Competition</h4>
+		</div>
+		
+	</div>
+
+
