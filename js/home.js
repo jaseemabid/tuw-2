@@ -5,7 +5,7 @@ $(document).ready(function() {
 	$("#sponsors_image").slideUp();
 	setTimeout(function() {
 		$("#header").animate({left:'20px',top:'0px'},1000);
-		$("#header img").animate({height:'45px'},1000);
+		$("#header img").animate({height:'54px'},1000);
 	},2000);
 	$("#about").mouseenter(function () {
 		$("#about_us").css("visibility", "visible");
@@ -37,7 +37,6 @@ function imageTransition() {
 	$("#image"+$count).fadeOut();
 	$count = $count - 1;
 	$("#image"+$count).fadeIn();
-	$("#image"+$count).css({'visibility':'visible'});
 	if($count == 1) {
 		$count = 7;
 	}
@@ -49,6 +48,7 @@ $(document).ready(function() {
 	 
 	   //When the link that triggers the message is clicked fade in overlay/msgbox
 	  $(".alert").click(function(){
+	  	  $("#msg_img").attr("src", $(this).attr("src"));
 		  $("#overlay").fadeIn();
 	      return false;
 	  });
@@ -65,11 +65,12 @@ $(document).ready(function() {
 	 
 	   //When the link that triggers the message is clicked fade in overlay/msgbox
 	  $(".alertvideo").click(function(){
+	  	  $( "#iframe" ).attr( "src", "//www.youtube.com/embed/"+$(this).attr("alt") );
 		  $("#overlay2").fadeIn();
 	      return false;
 	  });
 	 
-	   //When the message box is closed, fade out
+	  //When the message box is closed, fade out
 	  $(".close").click(function(){
 	      $( "#iframe" ).attr( "src", "" );	
 	      $("#overlay2").fadeOut();
