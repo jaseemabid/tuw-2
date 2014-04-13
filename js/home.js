@@ -30,13 +30,14 @@ $(document).ready(function() {
 		$("#selector"+i).addClass("class1");
 	setTimeout(function() {
 		imageTransition();
-	},4000);
+	},2000);
 });
 
 function imageTransition() {
 	$("#image"+$count).fadeOut();
 	$count = $count - 1;
 	$("#image"+$count).fadeIn();
+	$("#image"+$count).css({'visibility':'visible'});
 	if($count == 1) {
 		$count = 7;
 	}

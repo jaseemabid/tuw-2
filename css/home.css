@@ -142,6 +142,7 @@ body {
 	position: absolute;
 	height: 100%;
 	width: 100%;
+	visibility:hidden;
 }
 
 #main_image {
@@ -203,6 +204,7 @@ body {
 #news_img {
     width: 27%;
     left: 472px;
+    top:45px;
     position: absolute;
     z-index: -1;
 }
@@ -210,6 +212,7 @@ body {
 .twitter-timeline {
 	position: absolute;
 	width: 35%;
+	top:45px;
 	right: 0px;
 }
 
