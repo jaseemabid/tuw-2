@@ -30,7 +30,7 @@ $(document).ready(function() {
 		$("#selector"+i).addClass("class1");
 	setTimeout(function() {
 		imageTransition();
-	},2000);
+	},4000);
 });
 
 function imageTransition() {
