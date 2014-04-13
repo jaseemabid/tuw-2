@@ -5,7 +5,7 @@ $(document).ready(function() {
 	$("#sponsors_image").slideUp();
 	setTimeout(function() {
 		$("#header").animate({left:'20px',top:'0px'},1000);
-		$("#header img").animate({height:'54px'},1000);
+		$("#header img").animate({height:'45px'},1000);
 	},2000);
 	$("#about").mouseenter(function () {
 		$("#about_us").css("visibility", "visible");
