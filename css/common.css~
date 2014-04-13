@@ -1,11 +1,18 @@
 #category_heading {
-    background-color: ;
-    color:white;
+    background-color: rgba(255, 255, 255, 0.7);
     font-size: 20px;
     position: absolute;
     top: 10%;
     text-align: center;
     width: 100%;
+}
+
+#category_details {
+	width: 1000px;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	border-radius: 20px;
 }
 
 .category_title{
@@ -18,23 +25,28 @@
 .category {
 	width: 1000px;
 	margin: auto;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	border-radius: 20px;
 }
 #category_title1 {
-	background-color:;
+	background-size: 100% auto;
 }
 
 #category_title2 {
-	background-color:;
-	
+	background-size: 100% auto;	
 }
 
 #category_title3 {
-	background-color:;
-	 
+	background-size: 100% auto;	 
 }
 
 .category_title h3 {
 	font-size: 40px;
+	margin: 20px;
+}
+
+.category p {
 }
 
 #images img{

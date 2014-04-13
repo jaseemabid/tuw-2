@@ -2,6 +2,7 @@ var $count = 7;
 $(document).ready(function() {
 	$("#about_us").slideUp();
 	$("#sponsor_us").slideUp();
+	$("#sponsors_image").slideUp();
 	setTimeout(function() {
 		$("#header").animate({left:'20px',top:'0px'},1000);
 		$("#header img").animate({height:'54px'},1000);
@@ -16,8 +17,14 @@ $(document).ready(function() {
 	$("#heading").mouseenter(function () {
 		$("#sponsor_us").slideDown();
 	});
-	$("#sponsorship").mouseleave(function () {
+	$("#sponsorship").click(function () {
 		$("#sponsor_us").slideUp();
+	});
+	$("#sponsors").mouseenter(function () {
+		$("#sponsors_image").slideDown();
+	});
+	$("#sponsors").click(function () {
+		$("#sponsors_image").slideUp();
 	});
 	for(var i=1; i<7 ; ++i)
 		$("#selector"+i).addClass("class1");

@@ -1,20 +1,20 @@
 <div id="overlay">
 		<div id="msg">
 		<img id="msg_img" src="">
-		<a id="close" href="#"><img id="closebutton" src="../pic/closebutton.png" /></a>
+		<a id="close" href="#"><img id="closebutton" src="pic/common/closebutton.png" /></a>
 		<div id="description"></div>
 	</div>
 </div>
 
 <div id="overlay2">
-    <div class="videobox">
-	<a class="close" href="#" ><img id="whiteclose" src="../pic/whitecross.png"/></a>
-		<iframe
+    <div id="videobox" class="videobox">
+	<a class="close" href="#" ><img id="whiteclose" src="pic/common/whitecross.png"/></a>
+	<iframe id="iframe"
 				 width="100%"
 				 height="360px"
 				 src="http://www.youtube.com/embed/H_USzHRPLP0"
 				 frameborder="0"
 				 allowfullscreen>
-		</iframe>
-   	 </div>
+	</iframe>
+    </div>
  </div>

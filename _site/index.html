@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Team Unwired</title>
 <link type="text/css" href="css/home.css" rel="stylesheet">
 <link type="text/css" href="css/common.css" rel="stylesheet">
-<link rel="shortcut icon" href="pic/favicon.ico">
+<link rel="shortcut icon" href="pic/common/favicon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="teamunwired NIT Calicut">
+<meta name="keywords" content="teamunwired, unwired, nitc, nitcalicut, NIT Calcut, engineering, aero design, BAJA, rocketry ">
+<meta name="author" content="Mahesh Sreekumar Rajasree">
 <script src="js/jquery-2.0.3.min.js"></script>
 <script src="js/sponsors.js"></script>
 <script src="js/home.js"></script>
@@ -16,28 +20,28 @@
 	<div id="overlay">
 		<div id="msg">
 		<img id="msg_img" src="">
-		<a id="close" href="#"><img id="closebutton" src="../pic/closebutton.png" /></a>
+		<a id="close" href="#"><img id="closebutton" src="pic/common/closebutton.png" /></a>
 		<div id="description"></div>
 	</div>
 </div>
 
 <div id="overlay2">
-    <div class="videobox">
-	<a class="close" href="#" ><img id="whiteclose" src="../pic/whitecross.png"/></a>
-		<iframe
+    <div id="videobox" class="videobox">
+	<a class="close" href="#" ><img id="whiteclose" src="pic/common/whitecross.png"/></a>
+	<iframe id="iframe"
 				 width="100%"
 				 height="360px"
 				 src="http://www.youtube.com/embed/H_USzHRPLP0"
 				 frameborder="0"
 				 allowfullscreen>
-		</iframe>
-   	 </div>
+	</iframe>
+    </div>
  </div>
 
 	
 	<div id="header">
-	<img src="pic/tuwlogo100px.png">
-	<img src="pic/NITC-logo.png">
+	<img src="pic/common/tuwlogo100px.png">
+	<img src="pic/common/NITC-logo.png">
 </div>
 
 	<div id=navigator>
@@ -48,13 +52,13 @@
 		<li><a href="#sponsorship">SPONSORSHIP</a></li>
 		<li><a href="#contact_us">CONTACT US</a></li>
 		<li><a href="http://www.twitter.com/teamunwired">
-				<img src="pic/twitter.png"><br>
+				<img src="pic/common/twitter.png"><br>
 			</a></li>
 		<li><a href="https://plus.google.com/118161360181843997659">
-				<img src="pic/google_plus.png"><br>
+				<img src="pic/common/google_plus.png"><br>
 			</a></li>
 		<li><a href="http://www.facebook.com/teamunwired">
-				<img src="pic/facebook.png"><br>
+				<img src="pic/common/facebook.png"><br>
 			</a></li>
 		<li><p id="about_us"> from God's own country, Team Unwired is an ensemble of
 		undergraduate engineering students at the National Institute of
@@ -66,25 +70,27 @@
  
 	
 		<div id=image_slider>
-			<img src="pic/team.jpg"  id="image1">
-			<img src="pic/1040.jpg" id="image2" >
-			<img src="pic/234.jpg" id="image3" >
-			<img src="pic/508.jpg" id="image4" >
-			<img src="pic/Lighthouse.jpg" id="image5" >
-			<img src="pic/astronomy.jpg" id="image6" >
+			<img src="pic/auto/baja/8.jpg"  id="image1">
+			<img src="pic/auto/fsuk/7.jpg" id="image2" >
+			<img src="pic/auto/baja/5.jpg" id="image3" >
+			<img src="" id="image4" >
+			<img src="pic/aero/3.jpg" id="image5" >
+			<img src="pic/auto/fsuk/1.jpg" id="image6" >
 	</div>
 	
 	<div id="selector">
-			<a href="baja.html" id="selector1">BAJA SAE</a><br/>
+			<br /><br /><br />
+			<a href="auto.html" id="selector1">AUTO</a><br/>
 			<a href="aero.html" id="selector2">SAE AERO</a><br/>
-			<a href="photography.html" id="selector3">PHOTOGRAPHY</a><br/>
-			<a href="coding.html" id="selector5">CODING</a><br/>
+			<a href="coding.html" id="selector5">ELECTRONICS & CODING</a><br/>
+<!--			<a href="photography.html" id="selector3">PHOTOGRAPHY</a><br/>			
 			<a href="astronomy.html" id="selector6">ASTRONOMY</a><br/>
-			<a href="others.html" id="selector4">OTHERS</a><br/>
+			<a href="others.html" id="selector4">OTHERS</a><br/>    -->
 	</div>
 	
 	
 	<div id=new_div>
+		<br /><br />
 		<div id="news_feed">
 				<div id="fb-root"></div>
 				<script>(function(d, s, id) {
@@ -99,7 +105,7 @@
 					data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" 
 					data-show-border="false" data-width="520" data-height="350">
 				</div>
-				<img src="../pic/news.jpg" id="news_img" width="300">
+				<img src="pic/index/news.jpg" id="news_img" width="300">
 				<a class="twitter-timeline" href="https://twitter.com/teamunwired" data-widget-id="436508970371411970"
 					 height="350"></a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
@@ -108,25 +114,29 @@
 			</div>
 
 	
-	
-			
-	<br/><br/>
 	<div id="sponsors">
+	<h3>OUR SPONSORS</h3>
+	<div id="sponsors_image">
+		<div id="latest">
+			<a href="http://www.kalkitech.in/" ><img src="pic/common/Kalkitech.jpg" title="nrb" id="main_sponsor"></a> <br />
+			<p>We thank our new sponsor KALKITECH for their generosity and dedication to our mission. Kalki Communication 				Technologies is a niche technology company providing communication and optimization
+			solutions for the Smart Grid</p>
+		</div>
+		<a href="http://www.nrbbearings.com/" ><img src="pic/common/nrb.png" title="nrb"></a>
+		<a href="http://www.eaton.in/" ><img src="pic/common/eaton.png" title="eaton"></a>
+		<a href="https://www.solidworks.com/" ><img src="pic/common/solidworks.png" title="solidworks"></a>
+		<a href="http://www.gasotech.com/" ><img src="pic/common/gasotech.png" title="gasotech"></a>
+		<a href="http://sanpar.com/" ><img src="pic/common/sanpar.png" title="sanpar"></a>
+		<a href="http://www.acclimited.com/newsite/index.asp" ><img src="pic/common/acc.png" title="acc"></a>
+		<a href="http://www.kennametal.com/en/home.html" ><img src="pic/common/kennametal.png" title="kennametal"></a>
+		<a href="http://www.ongcindia.com/" ><img src="pic/common/ongc.png" title="ongc"></a>
+		<a href="http://www.hplindia.com/" ><img src="pic/common/hpl.png" title="hpl"></a>
 	<br /><br />
-	<p>OUR SPONSERS</p>
-	<a class="alert" href="#" ><img src="pic/nrb.png" title="nrb"></a>
-	<a class="alert" href="#" ><img src="pic/sanpar.png" title="sanpar"></a>
-	<a class="alert" href="#" ><img src="pic/solidworks.png" title="solidworks"></a>
-	<a class="alert" href="#" ><img src="pic/gasotech.png" title="gasotech"></a>
-	<a class="alert" href="#" ><img src="pic/eaton.png" title="eaton"></a>
-	<a class="alert" href="#" ><img src="pic/acc.png" title="acc"></a>
-	<a class="alert" href="#" ><img src="pic/kennametal.png" title="kennametal"></a>
-	<a class="alert" href="#" ><img src="pic/ongc.png" title="ongc"></a>
-	<a class="alert" href="#" ><img src="pic/hpl.png" title="hpl"></a>
+	</div>
 </div>
 
 	<div id="sponsorship">
-	<p id="heading">SPONSOR US<p>
+	<h3 id="heading">SPONSOR US</h3>
 	<div id="sponsor_us"> <!-- Main col -->
 		<p>
 			Formula Student is a renowned global challenge taken up by
@@ -156,13 +166,13 @@
 		<p>
 			Sponsorship is accepted as monetary, part, and technical assistance. If you are
 			interested in sponsoring TeamUnwired please download our marketing brochure for
-			more details or feel free to <a href="#contact_us">contact us</a> at any time.
+			more details or feel free to contact us at any time.
 		</p>
-
-		<a class="alertvideo" href="#" ><strong>WATCH OUR VIDEO>>>>>>>>>>>></strong></a><br/>
-		<a class="brochure" href="reader.html"><strong>READ OUR BROCHURE>>>>>>>>></strong></a>
 		
-		<br/><br/>
+		<a class="brochure" href="reader.html"><strong>CLICK HERE TO READ OUR BROCHURE>>>>>>>>></strong></a><br />
+		<h2>VIDEOS</h2>
+		<img class="alertvideo" src="pic/common/1.png" alt="H_USzHRPLP0">
+		<img class="alertvideo" src="pic/aero/4.jpg" alt="5TJd3Q3L1Hc">
 	</div>
 </div>
 

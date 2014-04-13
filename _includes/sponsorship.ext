@@ -1,5 +1,5 @@
 <div id="sponsorship">
-	<p id="heading">SPONSOR US<p>
+	<h3 id="heading">SPONSOR US</h3>
 	<div id="sponsor_us"> <!-- Main col -->
 		<p>
 			Formula Student is a renowned global challenge taken up by
@@ -29,12 +29,12 @@
 		<p>
 			Sponsorship is accepted as monetary, part, and technical assistance. If you are
 			interested in sponsoring TeamUnwired please download our marketing brochure for
-			more details or feel free to <a href="#contact_us">contact us</a> at any time.
+			more details or feel free to contact us at any time.
 		</p>
-
-		<a class="alertvideo" href="#" ><strong>WATCH OUR VIDEO>>>>>>>>>>>></strong></a><br/>
-		<a class="brochure" href="reader.html"><strong>READ OUR BROCHURE>>>>>>>>></strong></a>
 		
-		<br/><br/>
+		<a class="brochure" href="reader.html"><strong>CLICK HERE TO READ OUR BROCHURE>>>>>>>>></strong></a><br />
+		<h2>VIDEOS</h2>
+		<img class="alertvideo" src="pic/common/1.png" alt="H_USzHRPLP0">
+		<img class="alertvideo" src="pic/aero/4.jpg" alt="5TJd3Q3L1Hc">
 	</div>
 </div>

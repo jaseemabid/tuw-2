@@ -17,24 +17,22 @@ body {
 }
 
 #msg { 		
-			position:fixed; 
-            width:860px;
+	    position:fixed; 
+            width:673px;
             height:auto; 
             z-index:200;
             border:5px #222;
             border-radius: 25px;
      
-            top: 50px;
-            left: 50px;
-            margin-top: 40px;
-            margin-left: 180px; 
+            top: 90px;
+            left: 275px; 
             background-color:white;
 }
 #msg_img {
-		width:400px;
-		height:150px;
-		margin-top:20px;
-		margin-left:200px;
+		width:600px;
+		height:450px;
+		margin-top:30px;
+		margin-left:30px;
 		border: 2px solid #0D4F8B;
 }
  
@@ -66,13 +64,13 @@ body {
 }
 
 .videobox{ position:fixed; 
-            width:860px;
-            height:300px; 
+            width: 687px;
+	    height: 364px; 
             z-index:200;
             border:5px #222;
      
             top: 100px;
-            left: 50px;
+            left: 120px;
             margin-left: 180px; 
             background-color:rgba(0,0,0,0.8);
 }
@@ -82,6 +80,7 @@ body {
 	margin-top: 5px;
 	margin-right: 5px;
 	float:right; 
+	width: 20px;
 }
 
 #header {
@@ -194,7 +193,8 @@ body {
 }
 
 #news_feed {
-	
+	height: 350px;
+	margin-bottom: 20px;
 }
 .fb-like-box {
 	width: 35%;
@@ -202,42 +202,67 @@ body {
 
 #news_img {
     width: 27%;
-    left: 470px;
+    left: 472px;
     position: absolute;
-    z-index: -100;
+    z-index: -1;
 }
 
 .twitter-timeline {
 	position: absolute;
 	width: 35%;
 	right: 0px;
-	top: 0px;
 }
 
 #sponsors {
-	height: 70%;
-	background-image: url("../pic/money.jpg");
-	background-size: 100%;
-}
-
-#sponsors p {
+	background-image: url('/pic/common/money.jpg');
+	background-size: 100% auto;
 	text-align: center;
-	font-size:80px;
+	argin: 10px 0px;
+	padding: 10px;
 }
 
-#sponsors img {
-	width: 9%;
-	height: 12%;
+#sponsors h3 {
+	font-size:40px;
+	margin: 20px;
+	text-align: center;
+}
+
+#sponsors_image {
+	height: 440px;
+}
+
+#sponsors #latest #main_sponsor {
+	width: 46%;
+	height: 92%;
 	float: left;
+	margin: 5px;
+}
+
+#sponsors #latest {
+	width: 500px;
 	margin: auto;
-	margin: 15px 10px 8px 15px;
-	background-color:rgba(0,0,0,0.6);
+	height: 220px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+#sponsors #latest p {
+	margin: 5px;
+}
+
+#sponsors a:hover img{
+	border: black solid 2px;
+}
+#sponsors img {
+	width: 10%;
+	height: 14%;
+	border: transparent solid 2px;
+	margin: 40px 10px 8px 15px;
 }
 
 #sponsorship {
-	background-color: green;
-	color: white;
+	background-image: url('/pic/common/sponsorship.jpg');
 	margin: 10px 0px 10px 0px;
+	padding: 10px;
 }
 
 .alert9 {
@@ -246,21 +271,43 @@ body {
 
 #heading {
 	text-align: center;
-	font-size: 80px;
-	margin: 0px;	
+	font-size: 40px;
+	margin: 20px;	
 }
 
 #sponsor_us {
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	border-radius: 20px;
 	width: 1000px;
 	margin: auto;
 	font-size: 20px;
 }
 
-#sponsor_us a {
-	color: white;
+#sponsor_us img {
+	width: 130px;
+	height: 98px;
 }
+
+.alertvideo {
+	border: double;
+}
+
+.alertvideo:hover {
+	border: solid;
+}
+
+.alert {
+	border: solid white;
+}
+
+.alert:hover {
+	border: solid black;
+}
+
 .span4 {
-	margin-left: 200px;
+	margin-left: 140px;
+	margin-right: 95px;
 	float: left;
 }
 
@@ -273,4 +320,8 @@ ul, li ,a{
 	text-decoration: none;
 	list-style-type: none;	
 	color: black;
+}
+
+p {
+	text-align: justify;
 }
