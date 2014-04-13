@@ -88,6 +88,8 @@ body {
 	z-index:1002;
 	top: 35%;
 	left: 35%;
+	background-color: black;
+	border-radius: 5px;
 }
 
 #navigator {
