@@ -71,6 +71,7 @@ $(document).ready(function() {
 	 
 	   //When the message box is closed, fade out
 	  $(".close").click(function(){
+	      $( "#iframe" ).attr( "src", "" );	
 	      $("#overlay2").fadeOut();
 	      return false;
 	  });
