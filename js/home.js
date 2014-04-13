@@ -36,6 +36,7 @@ $(document).ready(function() {
 function imageTransition() {
 	$("#image"+$count).fadeOut();
 	$count = $count - 1;
+	$("#image"+$count).css({'visibility':'visible'});
 	$("#image"+$count).fadeIn();
 	if($count == 1) {
 		$count = 7;
