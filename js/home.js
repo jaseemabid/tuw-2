@@ -28,9 +28,6 @@ $(document).ready(function() {
 	});
 	for(var i=1; i<7 ; ++i)
 		$("#selector"+i).addClass("class1");
-	setTimeout(function() {
-		imageTransition();
-	},4000);
 });
 
 function imageTransition() {
