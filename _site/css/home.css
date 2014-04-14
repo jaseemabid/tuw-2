@@ -87,7 +87,9 @@ body {
 	position: fixed;
 	z-index:1002;
 	top: 35%;
-	left: 35%;
+	left: 40%;
+	background-color: black;
+	border-radius: 5px;
 }
 
 #navigator {
@@ -203,6 +205,7 @@ body {
 #news_img {
     width: 27%;
     left: 472px;
+    top:45px;
     position: absolute;
     z-index: -1;
 }
@@ -210,6 +213,7 @@ body {
 .twitter-timeline {
 	position: absolute;
 	width: 35%;
+	top:45px;
 	right: 0px;
 }
 
